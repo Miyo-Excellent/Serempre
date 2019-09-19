@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "gen-apk": "cd android && ./gradlew bundleRelease",
+    "gen-apk": "cd android && ./gradlew bundleRelease && ./gradlew assembleRelease",
     "start": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint ."
